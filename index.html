@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anna Hubarenko — Junior Python & Web Developer</title>
+  <!-- Favicon v záložke prehliadača (požiadavka z Bloku 7) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%232563EB'/><text x='50' y='67' font-size='46' font-family='Arial, sans-serif' font-weight='bold' fill='white' text-anchor='middle'>AH</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigácia -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo">Anna Hubarenko</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Otvoriť menu" aria-expanded="false">☰</button>
+      <nav class="nav-menu" id="navMenu">
+        <a href="#o-mne">O mne</a>
+        <a href="#projekty">Projekty</a>
+        <a href="#vzdelanie">Vzdelanie a certifikáty</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Úvodná sekcia (Hero) -->
+  <section class="hero">
+    <div class="container">
+      <span class="hero-badge">Študentka UNIZA (FPEDAS) • Žilina, Slovensko</span>
+      <h1>Anna Hubarenko</h1>
+      <p class="hero-role">Junior Python &amp; Web Developer</p>
+      <p class="hero-subtitle">
+        Začínajúca vývojárka so záujmom o Python a webové technológie. Rada pracujem v tíme, riešim praktické problémy a neustále sa vzdelávam v tvorbe zmysluplných digitálnych projektov.
+      </p>
+      <div class="hero-actions">
+        <a href="#projekty" class="btn-primary">Pozrieť projekty</a>
+        <a href="https://www.linkedin.com/in/anna-hubarenko-8946aa366" target="_blank" rel="noopener noreferrer" class="btn-outline">LinkedIn profil</a>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <!-- Sekcia 1: O mne -->
+    <section id="o-mne" class="section">
+      <div class="container about-layout">
+        <div class="profile-media">
+               <img src="image.png" alt="Anna Hubarenko" class="profile-photo">
+        </div>
+
+        <div class="about-content">
+          <span class="section-eyebrow">Profil</span>
+          <h2>O mne</h2>
+          <p>
+            Študujem na <strong>Žilinskej univerzite v Žiline (UNIZA)</strong> na <a href="https://fpedas.uniza.sk/" target="_blank" rel="noopener noreferrer" class="text-link">Fakulte prevádzky a ekonomiky dopravy a spojov (FPEDAS)</a> v odbore Distribučné technológie a služby.
+          </p>
+            Popri univerzitnom štúdiu sa venujem vývoju webových stránok (HTML5, CSS3, JavaScript, webová prístupnosť) a programovaniu v jazyku Python vrátane práce s ERP systémom Odoo. Zameriavam sa na čistý dizajn, responzivitu a praktickú použiteľnosť aplikácií.
+          </p>
+
+          <!-- Jazykové znalosti z LinkedInu -->
+          <div class="languages-bar" aria-label="Jazykové znalosti">
+            <span class="lang-pill"><strong>UA</strong> Ukrajinčina — materinský</span>
+            <span class="lang-pill"><strong>RU</strong> Ruština — materinský</span>
+            <span class="lang-pill"><strong>EN</strong> Angličtina — C1 Advanced</span>
+            <span class="lang-pill"><strong>SK</strong> Slovenčina — pracovná znalosť</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sekcia 2: 3 Projekty (požiadavka z Bloku 7) -->
+    <section id="projekty" class="section section-alt">
+      <div class="container">
+        <span class="section-eyebrow">Portfólio</span>
+        <h2>Moje projekty</h2>
+        <div class="projects-grid">
+
+          <!-- Projekt 1: LogiFix -->
+          <article class="project-card">
+            <div>
+              <div class="card-top">
+                <span class="project-tag">B2B Web App • UNIZA</span>
+                <span class="status-badge status-live">Online</span>
+              </div>
+              <h3>LogiFix — B2B Incident Management</h3>
+              <p>
+                Semestrálny B2B portál pre evidenciu a riešenie logistických incidentov so živým SLA časovačom, dynamickými KPI kartami a responzívnym rozhraním.
+              </p>
+              <div class="tech-mini">
+                <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <a href="https://dumpling576.github.io/logifix-b2b/" target="_blank" rel="noopener noreferrer" class="project-link">Otvoriť web →</a>
+              <a href="https://github.com/dumpling576/logifix-b2b" target="_blank" rel="noopener noreferrer" class="project-link-muted">GitHub kód</a>
+            </div>
+          </article>
+
+          <!-- Projekt 2: Golden Realty Agency -->
+          <article class="project-card">
+            <div>
+              <div class="card-top">
+                <span class="project-tag">Web dizajn • Real Estate</span>
+                <span class="status-badge status-wip">V procese úprav</span>
+              </div>
+              <h3>Golden Realty Agency</h3>
+              <p>
+                Prezentačná webová stránka realitnej kancelárie s moderným vizuálnym štýlom, prehľadnou štruktúrou ponuky nehnuteľností a responzívnym zobrazením.
+              </p>
+              <div class="tech-mini">
+                <span>HTML5</span><span>CSS3</span><span>Netlify</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <a href="https://goldenrealtyagency.netlify.app" target="_blank" rel="noopener noreferrer" class="project-link">Otvoriť náhľad →</a>
+            </div>
+          </article>
+
+          <!-- Projekt 3: Cristal Cleaning -->
+          <article class="project-card">
+            <div>
+              <div class="card-top">
+                <span class="project-tag">Firemný web • Služby</span>
+                <span class="status-badge status-wip">V procese úprav</span>
+              </div>
+              <h3>Cristal Cleaning</h3>
+              <p>
+                Webová stránka pre upratovacie a čistiace služby navrhnutá s dôrazom na čistú typografiu, jasnú prezentáciu balíkov služieb a rýchly kontakt.
+              </p>
+              <div class="tech-mini">
+                <span>HTML5</span><span>CSS3</span><span>Netlify</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <a href="https://cristalcleaning.netlify.app" target="_blank" rel="noopener noreferrer" class="project-link">Otvoriť náhľad →</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+   <!-- Sekcia 3: Vzdelanie, zručnosti a certifikáty -->
+    <section id="vzdelanie" class="section">
+      <div class="container">
+        <span class="section-eyebrow">Kvalifikácia</span>
+        <h2>Vzdelanie, zručnosti a certifikáty</h2>
+
+        <div class="edu-skills-grid">
+          <div class="info-card">
+            <h3>🎓 Univerzitné vzdelanie</h3>
+            <p class="edu-school">Žilinská univerzita v Žiline (UNIZA)</p>
+            <p class="edu-faculty">
+              <a href="https://fpedas.uniza.sk/" target="_blank" rel="noopener noreferrer">Fakulta prevádzky a ekonomiky dopravy a spojov (FPEDAS)</a>
+            </p>
+            <p class="edu-program">Odbor: Distribučné technológie a služby</p>
+          </div>
+
+          <div class="info-card">
+            <h3>💻 Technické zručnosti</h3>
+            <div class="skills-tags">
+              <span>Python</span>
+              <span>Odoo ERP</span>
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>Web Accessibility</span>
+              <span>Git &amp; GitHub</span>
+              <span>Figma</span>
+              <span>VS Code</span>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="sub-heading">Licencie a certifikácie</h3>
+        <div class="certs-grid">
+
+          <!-- 1. EF SET English Certificate (PDF) -->
+          <article class="cert-card">
+            <div>
+              <div class="card-top">
+                <span class="cert-issuer">EF SET • Sep 2025</span>
+                <span class="file-tag">PDF</span>
+              </div>
+              <h4>EF SET English Certificate 62/100 (C1 Advanced)</h4>
+              <p>Pokročilá úroveň anglického jazyka podľa CEFR (Reading 63, Listening 61).</p>
+            </div>
+            <div class="project-footer">
+              <a href="https://efset-pdf-generator-prod-eu-west-1.s3.eu-west-1.amazonaws.com/2026/11/13/1794598368234/EF%20SET%20Certificate.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA4UHWAWPWXL5Q3SWC%2F20261113%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20261113T193248Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCWV1LXdlc3QtMSJHMEUCIQDrZKF8%2FHAl%2Bo8Hb3vux40t69cobMxoAtSl%2BJNH6VE%2FlwIgAnWRakSIfSUYFUEeEk8mv0JWvxTh6srbv4qoGUy2eAoqlgQIjP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw4NjgwOTkzMzkyNDUiDKbXFjhh9SZ47r3DqirqA4rEH0Cu%2B6o4NDKViUIxadJ7dRBsk9mL7NcvOmpS002u7qVFiJ590xOJhhrdSVVJoi7ASfdXM0PWC0HjOk9cmH73u9tW2nZQUnqBmZDljEU2nta3rPLy%2BUZ9RJ2X5PI8jFfBzu7ExcVmo9FiiazGW7jLDlvkILV6DOaYIgtAllFoVce8kpLxBcpPr04BN5ox8%2FpalVHZC%2BjcdX1i0m6DAYQW7zjK0jaOucdtSV01W9oIJ1rbgEbPV72MI9B7bCoHME25kiRc6qTLaFLUsdeLYnInqY0UoJKDac6oC4h9WSqTFZqkyzfGzDBNlgPXIIci1msVOEQPSuDDVPrvH6g0BMI%2Fb7nEx6eF0YCNdaM7QgnQImu%2FPTgTdvIumg%2FafRyWDOQopZeNuXjukPc0VebfSpORswGb1AG9YrCROKienhfSDA7V9qQyt4XMdEBuejBO7Wl2gnfp6XX5fcAXxAbnYNgXcgD0hl5zPRokYzwxZOlHlGO%2BmG3PX%2FRAhb14Z2SOpi5aYQs%2BA4hpQfvHv%2BJIgCqEoGEiXQy4nYp6VnwjgmNq9a4d%2FdRd%2FqG%2BtbMzuJCcHAhP7ZaA4Fo%2FyQQPtPQo6Ii9%2FT6RENZxf8nmt%2BxJQcDQCpglQztZykSFa%2ByHY8rB%2BqDEMIk%2F9SCZioswtLnd1wY6ogGj61wupZzIhiesFx4%2BwPQxWBrhTFZI8wQCPTlwcIF9HuGdUHaAepsV%2BABbzL5d30EUIUF6XEQs%2FJjvrFdt7ZfSxp7fF%2BDhsJemPpM%2BuE8iasyXAYrWu%2BarmzOLr1WjMvNjjeoQ97mEmO%2FaETwPJB5nJPmymECoWLYCvhOeM9fnLbqwWvGKW7TFrqXKBe7yNte%2BUGeGew2%2FTIDUq%2B1SOLJ7ik8%3D&X-Amz-Signature=f3170357e2f3001bec85489302ec276c883cf2d280b2e261a377c7ed8a36de27&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject" target="_blank" rel="noopener noreferrer" class="project-link">Otvoriť PDF →</a>
+              <a href="https://cert.efset.org/U8DrPH" target="_blank" rel="noopener noreferrer" class="project-link-muted">Overiť online</a>
+            </div>
+          </article>
+
+          <!-- 2. Young Coder School: Web-Programming -->
+          <article class="cert-card">
+            <div>
+              <div class="card-top">
+                <span class="cert-issuer">Young Coder School • Apr 2025</span>
+                <span class="file-tag">PNG</span>
+              </div>
+              <h4>Certified by YCS: Web-Programming</h4>
+              <p>Ukončený kurz programovania so zameraním na tvorbu webu (Web Development, HTML, CSS).</p>
+            </div>
+            <div class="project-footer">
+              <a href="certs/web.png" target="_blank" rel="noopener noreferrer" class="project-link">Zobraziť certifikát →</a>
+            </div>
+          </article>
+
+          <!-- 3. Young Coder School: Python -->
+          <article class="cert-card">
+            <div>
+              <div class="card-top">
+                <span class="cert-issuer">Young Coder School • Apr 2025</span>
+                <span class="file-tag">PNG</span>
+              </div>
+              <h4>Certified by YCS: Python</h4>
+              <p>Ukončený kurz programovania v jazyku Python vrátane základov práce v systéme Odoo.</p>
+            </div>
+            <div class="project-footer">
+              <a href="certs/python.png" target="_blank" rel="noopener noreferrer" class="project-link">Zobraziť certifikát →</a>
+            </div>
+          </article>
+
+          <!-- 4. ITosvita Grand -->
+          <article class="cert-card">
+            <div>
+              <div class="card-top">
+                <span class="cert-issuer">ITosvita „Grand“ • Mar 2021</span>
+                <span class="file-tag">PNG</span>
+              </div>
+              <h4>IT Educational Course</h4>
+              <p>Komplexné IT vzdelávanie: webové technológie (HTML, JavaScript, PHP), SQL databázy a grafický dizajn.</p>
+            </div>
+            <div class="project-footer">
+              <a href="certs/itosvita.png" target="_blank" rel="noopener noreferrer" class="project-link">Zobraziť certifikát →</a>
+            </div>
+          </article>
+
+          <!-- 5. Microsoft: HTML -->
+          <article class="cert-card">
+            <div>
+              <div class="card-top">
+                <span class="cert-issuer">Microsoft • Máj 2025</span>
+                <span class="file-tag">Certifikát</span>
+              </div>
+              <h4>Build your first HTML webpage</h4>
+              <p>Základy štruktúrovania webových stránok a sémantického HTML kódu.</p>
+            </div>
+            <div class="project-footer">
+              <a href="https://www.linkedin.com/in/anna-hubarenko-8946aa366" target="_blank" rel="noopener noreferrer" class="project-link">Overiť na LinkedIne →</a>
+              <a href="certs/build.png" target="_blank" rel="noopener noreferrer" class="project-link-muted">Overiť online</a>
+            </div>
+          </article>
+
+          <!-- 6. Microsoft: CSS -->
+          <article class="cert-card">
+            <div>
+              <div class="card-top">
+                <span class="cert-issuer">Microsoft • Máj 2025</span>
+                <span class="file-tag">Certifikát</span>
+              </div>
+              <h4>Use CSS styles in a webpage</h4>
+              <p>Štýlovanie webových rozhraní, rozloženie prvkov a vizuálna úprava stránok pomocou CSS.</p>
+            </div>
+            <div class="project-footer">
+              <a href="https://www.linkedin.com/in/anna-hubarenko-8946aa366" target="_blank" rel="noopener noreferrer" class="project-link">Overiť na LinkedIne →</a>
+              <a href="certs/css.png" target="_blank" rel="noopener noreferrer" class="project-link-muted">Overiť online</a>
+            </div>
+          </article>
+
+          <!-- 7. Microsoft: Web Accessibility -->
+          <article class="cert-card">
+            <div>
+              <div class="card-top">
+                <span class="cert-issuer">Microsoft • Máj 2025</span>
+                <span class="file-tag">Certifikát</span>
+              </div>
+              <h4>Learn the basics of web accessibility</h4>
+              <p>Tvorba prístupných webových aplikácií pre všetkých používateľov podľa štandardov prístupnosti.</p>
+            </div>
+            <div class="project-footer">
+              <a href="https://www.linkedin.com/in/anna-hubarenko-8946aa366" target="_blank" rel="noopener noreferrer" class="project-link">Overiť na LinkedIne →</a>
+              <a href="certs/basics.png" target="_blank" rel="noopener noreferrer" class="project-link-muted">Overiť online</a>
+            </div>
+          </article>
+
+          <!-- 8. Microsoft: Visual Studio Code -->
+          <article class="cert-card">
+            <div>
+              <div class="card-top">
+                <span class="cert-issuer">Microsoft • Máj 2025</span>
+                <span class="file-tag">Certifikát</span>
+              </div>
+              <h4>Get started with web development using Visual Studio Code</h4>
+              <p>Práca vo vývojovom prostredí VS Code, konfigurácia nástrojov a efektívny vývoj webu.</p>
+            </div>
+            <div class="project-footer">
+              <a href="https://www.linkedin.com/in/anna-hubarenko-8946aa366" target="_blank" rel="noopener noreferrer" class="project-link">Overiť na LinkedIne →</a>
+              <a href="certs/vs.png" target="_blank" rel="noopener noreferrer" class="project-link-muted">Overiť online</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Sekcia 4: Kontakt -->
+    <!-- Sekcia 4: Kontakt -->
+    <section id="kontakt" class="section section-alt">
+      <div class="container">
+        <div class="contact-banner">
+          <span class="contact-badge">Kontakt</span>
+          <h2>Spojme sa</h2>
+          <p class="contact-subtitle">
+            Hľadáte posilu do tímu alebo máte otázku k mojim projektom? Neváhajte ma kontaktovať telefonicky, e-mailom alebo cez profesijné siete.
+          </p>
+
+          <!-- Priame kontakty -->
+          <div class="direct-contacts">
+            <a href="tel:+421940593603" class="contact-item-card">
+              <div class="contact-icon-box" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                </svg>
+              </div>
+              <div class="contact-info-text">
+                <span class="contact-label">Telefón</span>
+                <strong>+421 940 593 603</strong>
+              </div>
+            </a>
+
+            <a href="mailto:hubarenko.anna040707@gmail.com" class="contact-item-card">
+              <div class="contact-icon-box" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="4" width="20" height="16" rx="2"/>
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+                </svg>
+              </div>
+              <div class="contact-info-text">
+                <span class="contact-label">E-mail</span>
+                <strong>hubarenko.anna040707@gmail.com</strong>
+              </div>
+            </a>
+          </div>
+
+          <!-- Sociálne a profesijné siete -->
+          <div class="contact-buttons">
+            <a href="https://www.linkedin.com/in/anna-hubarenko-8946aa366" target="_blank" rel="noopener noreferrer" class="social-pill linkedin">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+              </svg>
+              <span>LinkedIn profil</span>
+            </a>
+
+            <a href="https://github.com/dumpling576" target="_blank" rel="noopener noreferrer" class="social-pill github">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
+              </svg>
+              <span>GitHub (dumpling576)</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pätička -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Anna Hubarenko • Osobné portfólio • Návrh a tvorba webových stránok (FPEDAS UNIZA)</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
